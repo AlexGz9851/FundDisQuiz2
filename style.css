@@ -30,6 +30,11 @@
 	font-size: 130%;
 	color:#000;
 }
+.ContenidoH{
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 130%;
+	color:#fff;
+}
 #Curiosidades{
 	background-color: #ff99ce;
 }
@@ -40,6 +45,12 @@
 .fluid-height{
 	height:200px;
 
+}
+.fotosRiel{
+	width: 272.012px !important;
+	height: 262.012px !important;
+	margin-top: 15px;
+	left: 166.133px;"
 }
 footer {
   padding: 1em 0;
