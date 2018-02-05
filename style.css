@@ -1,7 +1,8 @@
 #Inicio{
 	background-image: url("img/bckgInicio.jpg");
 	background-size: 100%;
-	height: 100vh;
+	height: 100%;
+
 }
 #TituloCentral{
 	font-size:500%;
@@ -25,10 +26,18 @@
 #LateralGeneral{
 	color:#fff;
 }
+.margen{
+	margin:2%;
+}
 .Contenido{
 	font-family: 'ABeeZee', sans-serif;
 	font-size: 130%;
 	color:#000;
+}
+.tabTit{
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 200%;
+	color:#fff;	
 }
 .ContenidoH{
 	font-family: 'ABeeZee', sans-serif;
@@ -38,7 +47,7 @@
 #Curiosidades{
 	background-color: #ff99ce;
 }
-#Hobbies{
+.Hobbies{
 	background-color: #262626;
 }
 
