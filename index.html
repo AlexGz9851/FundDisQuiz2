@@ -1,0 +1,133 @@
+<html>
+	<head>
+    <title>Fundamentos Diseño I.</title>
+        <script   src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.css"/> 
+	    <script   src="semantic.min.js"></script>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=ABeeZee|Heebo|Hind+Siliguri" rel="stylesheet">
+	</head>
+
+
+	<body>
+    
+  <div class="ui fixed inverted menu" id=Menu>
+    <div class="ui container">
+      <a href="#Inicio" class="header item">
+        <img class="logo" src="img/logo.jpg">
+        Quiz 2
+      </a>
+      <a href="#Inicio" class="item">Inicio</a>
+      <div class="ui simple dropdown item">   Sobre Alex <i class="dropdown icon"></i>
+        <div class="menu">
+          <a class="item" href="#General">Informaci&#243n General</a>
+          <a class="item" href="#Curiosidades">Curiosidades sobre m&#237</a>
+          <div class="divider"></div>
+          <div class="header">Conoce más</div>
+          <a class="item" href="#Hobbies">Hobbies</a>
+          <a class="item" href="#Contacto">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+   	<div class="ui grid" id=Inicio>
+         <div class="sixteen wide column">
+         <h1 class="ui  center aligned header" id="TituloCentral" ></br>Alex Gonz&#225lez S&#225nchez</h1>
+
+       </div>
+   	</div>
+
+	<div class="ui grid" id=General>
+	  <div class="four wide column">
+	    <img class="ui middle aligned fluid circular image" id=MiFoto src=img/a.jpg>
+	  </div>
+	  <div class="nine wide column">
+      <h1 class="TituloSeccion">Sobre m&#237</h1>
+	    <p class="Contenido"></br>Estudiante del Tec Gda en Ingenier&#237a de Sistemas Computacionales de segundo semestre. Tengo 20 años. Paso mi tiempo libre resolviendo problemas f&#237sico matemáticos. Sueño con ser Investigador en F&#237sica y/o Ciencias Computacionales, construir mi propia casa  y publicar novelas románticas, poesía y los extractos de mis escritos. Apasionado, curioso, con alma de filósofo, me encanta enseñar, aportar, inspirar.
+      Disfruto mucho  de hacer caminata por mi ciudad, leer, cantar a todo pulmón, bailar salsa y hacer crossfit.</p>
+	  </div>
+	  <div class="three wide column" >
+	    <p id=LateralGeneral>3</p>
+	  </div>
+	</div>
+
+    <div class="ui grid" id="Curiosidades">
+    <div class="sixteen wide column">
+      <div class="ui small images">
+      </div>
+    </div>
+  </div> 
+
+
+    <div class="ui grid" id="Hobbies">
+    <div class="sixteen wide column">
+      <h1>Hobbies</h1>
+      <div  id="GaleriaHobbies">
+        <img class="fluid-height" src="img/Hobbies/chess.jpg">
+        <img class="fluid-height" src="img/Hobbies/chessDib.jpg">
+        <img class="fluid-height" src="img/Hobbies/comer.jpg">
+        <img class="fluid-height" src="img/Hobbies/guitarra.jpg">
+        <img class="fluid-height" src="img/Hobbies/ojos.jpg">
+      </div>
+    </div>
+  </div> 
+
+  <div class="ui grid" id=Contacto>
+    <div class="sixteen wide column">
+      <h1  class="TituloSeccion">Contactame</h1>
+    </div>
+      <div class="four wide column">
+        <a href="mailto:a00820225@itesm.mx" style='text-decoration:none;color:black;'>
+        <i class="massive mail icon"  ></i>
+        </a>
+         <p class=Contenido>
+           <a href="mailto:a00820225@itesm.mx" style='text-decoration:none;color:black;'><br>Mail: a00820225@itesm.mx</a>
+         </p>
+      </div>
+      <div class="four wide column">
+          <i class="massive call icon"></i>
+          <p class=Contenido>
+              </br>Teléfono: +52 333 44 86 232</br></br>
+          </p>
+      </div>
+      <div class="four wide column">
+        <a href="https://www.facebook.com/alex.gonzalezs.31">
+          <button class="ui massive facebook button">
+            <i class="facebook icon"></i>
+                Facebook
+          </button>
+        </a>
+      </div>
+      <div class="four wide column">
+        <a href="https://www.instagram.com/alex.gonzalezs.31/">
+          <button class="ui massive instagram button">
+           <i class="instagram icon"></i>
+            Instagram
+          </button>
+        </a>
+      </div>
+    <!--/div-->
+  </div>
+    <footer>
+        Alex Gonz&#225lez - 2018
+    </footer>
+	</body>
+</html>
+
+
+<script type="text/javascript"> 
+
+$('#TituloCentral')
+  .transition('fade down')
+;
+
+$(document).ready(function(){
+    $('#MiFoto').hover(function(){
+        $(this).transition('pulse');
+        }, function(){
+    });
+});
+</script>

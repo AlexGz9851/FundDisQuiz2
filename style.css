@@ -1,0 +1,51 @@
+#Inicio{
+	background-image: url("img/bckgInicio.jpg");
+	background-size: 100%;
+	height: 100vh;
+}
+#TituloCentral{
+	font-size:500%;
+	font-family: 'Pacifico', cursive;
+	color:#b30047;
+	display: none;
+}
+#Boton{
+	align-content:  center;
+	background-color: #99003d ;
+	color:#fff;
+}
+#Menu{
+	background-color:#99003d ;
+}
+.TituloSeccion{
+	font-family: 'Heebo', sans-serif;
+	color:#000;
+	font-size: 260%;
+}
+#LateralGeneral{
+	color:#fff;
+}
+.Contenido{
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 130%;
+	color:#000;
+}
+#Curiosidades{
+	background-color: #ff99ce;
+}
+#Hobbies{
+	background-color: #262626;
+}
+
+.fluid-height{
+	height:200px;
+
+}
+footer {
+  padding: 1em 0;
+  text-align: center;
+  color: white;
+  background-color: #99003d;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size:12px ;
+  	 }
