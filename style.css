@@ -1,6 +1,6 @@
 #Inicio{
-	background-image: url("img/bckgInicio3.jpg");
-
+	background-image: url("img/bckgInicio.jpg");
+	background-size: 100%;
 	min-height: 100%;
 
 }
